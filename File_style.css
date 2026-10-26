@@ -1,4 +1,4 @@
-/* Pengaturan dasar */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     line-height: 1.6;
 }
 
-/* Navbar */
+
 .navbar {
     width: 100%;
     min-height: 85px;
@@ -82,7 +82,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* Bagian beranda */
+
 .hero {
     display: flex;
     align-items: center;
@@ -125,7 +125,7 @@ body {
     box-shadow: 0 10px 25px rgba(217, 154, 80, 0.25);
 }
 
-/* Bagian pilihan menu */
+
 .menu-section {
     padding: 15px 6% 75px;
     border-top: 3px solid #eeeeee;
@@ -181,7 +181,7 @@ body {
     color: #5d4a35;
 }
 
-/* Footer */
+
 .footer {
     background-color: #151515;
     color: white;
@@ -240,7 +240,7 @@ body {
     font-size: 14px;
 }
 
-/* Tablet */
+
 @media (max-width: 900px) {
     .navbar {
         justify-content: center;
@@ -278,7 +278,7 @@ body {
     }
 }
 
-/* HP */
+
 @media (max-width: 600px) {
     .navbar {
         flex-direction: column;
